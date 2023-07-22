@@ -1,0 +1,136 @@
+2023-07-23 00:48:25 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 24888 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 00:48:25 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 00:48:26 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.021 seconds (process running for 1.944)
+2023-07-23 00:48:26 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 00:48:26 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:48:36 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:48:46 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:48:56 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:49:06 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:49:16 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:49:26 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:49:36 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:49:46 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:49:56 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:50:06 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:50:16 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:50:26 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:51:17 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 3980 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 00:51:17 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 00:51:17 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.053 seconds (process running for 1.966)
+2023-07-23 00:51:17 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-07-23 00:51:17 [main] INFO  c.c.t.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 00:51:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection reset
+2023-07-23 00:51:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+2023-07-23 00:51:18 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-07-23 00:51:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection reset
+2023-07-23 00:51:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
+2023-07-23 00:51:18 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-07-23 00:51:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection reset
+2023-07-23 00:51:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
+2023-07-23 00:51:19 [Twitter Stream consumer /  [1][Waiting for 1000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-07-23 00:51:19 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection reset
+2023-07-23 00:51:19 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 2000 milliseconds
+2023-07-23 00:51:21 [Twitter Stream consumer /  [1][Waiting for 2000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-07-23 00:51:22 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection reset
+2023-07-23 00:51:22 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 4000 milliseconds
+2023-07-23 00:51:26 [Twitter Stream consumer /  [1][Waiting for 4000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-07-23 00:51:26 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection reset
+2023-07-23 00:51:26 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 8000 milliseconds
+2023-07-23 00:51:34 [SpringApplicationShutdownHook] INFO  c.c.t.r.i.TwitterKafkaStreamRunner - Closing twitter stream
+2023-07-23 00:53:55 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 2964 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 00:53:55 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 00:53:55 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.026 seconds (process running for 1.954)
+2023-07-23 00:53:55 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 00:53:55 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:54:24 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 21316 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 00:54:24 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 00:54:25 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.975 seconds (process running for 1.863)
+2023-07-23 00:54:25 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 00:54:25 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:54:35 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:54:45 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:58:19 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 18736 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 00:58:19 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 00:58:19 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.016 seconds (process running for 1.928)
+2023-07-23 00:58:19 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 00:58:20 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:58:30 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:58:49 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 14372 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 00:58:49 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 00:58:49 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.001 seconds (process running for 1.89)
+2023-07-23 00:58:49 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 00:58:49 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 00:58:59 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:01:13 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 14164 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 01:01:13 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 01:01:14 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.975 seconds (process running for 1.875)
+2023-07-23 01:01:14 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 01:01:14 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:01:24 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:03:13 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 24408 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 01:03:13 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 01:03:13 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.998 seconds (process running for 1.92)
+2023-07-23 01:03:13 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 01:03:13 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:03:23 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:03:46 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 19372 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 01:03:46 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 01:03:46 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.003 seconds (process running for 1.882)
+2023-07-23 01:03:46 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 01:03:46 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:03:56 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:04:36 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 8492 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 01:04:36 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 01:04:36 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.995 seconds (process running for 1.889)
+2023-07-23 01:04:36 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 01:04:37 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:04:47 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:04:57 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:05:04 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 21652 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 01:05:04 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 01:05:05 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.976 seconds (process running for 1.87)
+2023-07-23 01:05:05 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 01:05:05 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:05:15 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:05:59 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 11820 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 01:05:59 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 01:05:59 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.963 seconds (process running for 1.879)
+2023-07-23 01:05:59 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 01:05:59 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:06:09 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:06:32 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 19232 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 01:06:32 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 01:06:33 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.018 seconds (process running for 1.934)
+2023-07-23 01:06:33 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 01:06:33 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:06:43 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:07:14 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 21292 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 01:07:14 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 01:07:14 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.047 seconds (process running for 1.959)
+2023-07-23 01:07:14 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 01:07:14 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:08:50 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 21512 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 01:08:50 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 01:08:51 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.053 seconds (process running for 1.953)
+2023-07-23 01:08:51 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 01:08:51 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:10:07 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 17068 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 01:10:07 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 01:10:07 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.207 seconds (process running for 2.281)
+2023-07-23 01:10:07 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 01:10:07 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text 
+2023-07-23 01:11:01 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 15948 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 01:11:01 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 01:11:02 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.102 seconds (process running for 2.04)
+2023-07-23 01:11:02 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 01:11:02 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text ut dolore do aliqua Elasticsearch sed dolore
+2023-07-23 01:11:35 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.1 with PID 17300 (G:\_JAVA\twitter\twitter-microservices\twitter-to-kafka-service\target\classes started by User in G:\_JAVA\twitter\twitter-microservices)
+2023-07-23 01:11:35 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 01:11:36 [main] INFO  c.c.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.991 seconds (process running for 1.924)
+2023-07-23 01:11:36 [main] INFO  c.c.t.r.impl.MockKafkaStreamRunner - Starting mock filtering stream for keywords [Java, Spring, Microservices, Kafka, Elasticsearch]
+2023-07-23 01:11:36 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text do sed aliqua magna elit sed dolore ut Spring elit labore magna amet, et magna
+2023-07-23 01:11:46 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text sit eiusmod et Spring ut labore
+2023-07-23 01:11:56 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text eiusmod amet, magna dolore Microservices magna labore et
+2023-07-23 01:12:06 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text consectetur sed eiusmod adipiscing labore et labore Microservices ipsum eiusmod eiusmod adipiscing eiusmod
+2023-07-23 01:12:16 [pool-2-thread-1] INFO  c.c.t.l.TwitterKafkaStatusListener - Twitter status with text eiusmod do magna elit sed Java consectetur elit dolor ut
