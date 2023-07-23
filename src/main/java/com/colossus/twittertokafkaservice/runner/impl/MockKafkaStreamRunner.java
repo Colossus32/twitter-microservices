@@ -1,6 +1,6 @@
 package com.colossus.twittertokafkaservice.runner.impl;
 
-import com.colossus.twittertokafkaservice.config.TwitterToKafkaServiceConfigData;
+import com.colossus.config.TwitterToKafkaServiceConfigData;
 import com.colossus.twittertokafkaservice.exception.TwitterToKafkaServiceException;
 import com.colossus.twittertokafkaservice.listener.TwitterKafkaStatusListener;
 import com.colossus.twittertokafkaservice.runner.StreamRunner;

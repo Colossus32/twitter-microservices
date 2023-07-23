@@ -1,9 +1,8 @@
 package com.colossus.twittertokafkaservice.runner.impl;
 
-import com.colossus.twittertokafkaservice.config.TwitterToKafkaServiceConfigData;
+import com.colossus.config.TwitterToKafkaServiceConfigData;
 import com.colossus.twittertokafkaservice.listener.TwitterKafkaStatusListener;
 import com.colossus.twittertokafkaservice.runner.StreamRunner;
-import jakarta.annotation.PreDestroy;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -13,6 +12,7 @@ import twitter4j.TwitterException;
 import twitter4j.TwitterStream;
 import twitter4j.TwitterStreamFactory;
 
+import javax.annotation.PreDestroy;
 import java.util.Arrays;
 
 @Component
